@@ -20,7 +20,7 @@ layout: home
 Hi! I'm Surya. A teenager interested in <s>all</s> most things tech! My
 current interests are:  
 
-- [Arch Linux](https:/archlinux.org)  
+- [Arch Linux](5)  
 - [GNU Emacs](https:/www.gnu.org/software/emacs/) (and also [Doom
   Emacs](https:/github.com/hlissner/doom-emacs))  
 - [Emacs org-mode](https:/orgmode.org)  
@@ -28,8 +28,7 @@ current interests are:
 - [Nix](https:/nixos.org/guides/how-nix-works.html) (and also [GNU
   Guix](https:/guix.gnu org/))  
 - [Shell scripting](https:/www.shellscript.sh/)  
-- [Functional
-  programming](https:/www.geeksforgeeks.org/functional-programming-paradigm/)  
+- [Functional programming](https:/www.geeksforgeeks.org/functional-programming-paradigm/)  
 - Debating  
 
 # *GitHub* Copilot
@@ -162,3 +161,4 @@ Truly, *GitHub* Copilot is a step forward for programmers. Contesting *if* it sh
 [2]: data/graph.png
 [3]: data/IntelliCodeUsageExamples.gif
 [4]: data/copilotgif.gif
+[5]: https:/archlinux.org
