@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-08-17 Tue 12:49 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Surya's website</title>
+<meta name="author" content="Surya Pranav" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<style type="text/css">
+/******************************************************
+* I copied these styles from markdotto.com, who is
+* the creator of bootstrap, and I also did some
+* modification. Thanks Mark for the beautiful theme,
+* so I reserved the @mdo sign below.
+*****************************************************/
+
+/*
+__
+__                  /\ \
+/'_`\_    ___ ___    \_\ \    ___
+/'/'_` \ /' __` __`\  /'_` \  / __`\
+/\ \ \L\ \/\ \/\ \/\ \/\ \L\ \/\ \L\ \
+\ \ `\__,_\ \_\ \_\ \_\ \___,_\ \____/
+\ `\_____\\/_/\/_/\/_/\/__,_ /\/___/
+`\/_____/
+
+*/
+
+
+
+/* Body resets
+-------------------------------------------------- */
+
+* {
+-webkit-box-sizing:  border-box;
+-moz-box-sizing:  border-box;
+box-sizing:  border-box;
+}
+html, body {
+margin:  0;
+padding:  0;
+}
+html {
+font-size:  62.5%;
+}
+body {
+padding:  20px;
+font-family:  Menlo, Monaco, monospace;
+font-size:  14px;
+line-height:  1.5;
+color:  #E5E9F0;
+background-color:  #3B4252;
+}
+p {
+margin:  0 0 20px;
+}
+h1, h2, h3 {
+position:  relative;
+margin:  30px 0 20px;
+font-size:  18px;
+font-weight:  bold;
+line-height:  1.1;
+color:  #A3BE8C;
+text-rendering:  optimizeLegibility;
+}
+h1:before, h2:before, h3:before {
+position:  absolute;
+top:  auto;
+color:  #ccc;
+display:  none;
+}
+h1:before {
+content:  "";
+left:  -1.25em;
+}
+h2:before {
+content:  "*";
+left:  -2em;
+}
+h3:before {
+content:  "**";
+left:  -2.5em;
+}
+i, em, b, strong {
+padding-left:  .1em;
+padding-right:  .1em;
+}
+b, strong {
+font-weight:  bold;
+color:  #D08770;
+}
+b:before, b: after, strong:before, strong: after {
+content:  "*";
+}
+i:before, i: after, em:before, em: after {
+content:  "/";
+}
+hr {
+margin:  0;
+border:  0;
+}
+hr: after {
+display:  block;
+margin:  20px 0;
+content:  "----------------------------------------------------------------";
+color:  #ccc;
+}
+ul, ol {
+padding:  0;
+margin:  0 0 20px;
+}
+code, pre {
+font-family:  Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+code {
+color:  #d14;
+}
+code:before, code: after {
+content:  "=";
+color:  #ccc;
+}
+pre {
+display:  block;
+margin:  0 0 14px;
+padding:  15px;
+border-radius:  3px 3px 3px 3px;
+font-size:  18px;
+line-height:  28px;
+background-color: #2E3440;
+white-space:  pre;
+white-space:  pre-wrap;
+word-break:  break-all;
+word-wrap:  break-word;
+}
+blockquote {
+padding:  0 0 0 20px;
+margin:  0 30px 20px -22.5px;
+color:  #E5E9F0;
+border-left:  8px solid #e5e5e5;
+background-color: #2E3440;
+}
+blockquote p: last-child {
+margin-bottom:  0;
+}
+img {
+display:  block;
+margin:  0;
+border-radius:  5px;
+}
+a {
+font-weight:  inherit;
+line-height:  inherit;
+color:  #000;
+text-decoration:  none;
+}
+sup a:before {
+content:  "[";
+}
+sup a: after {
+content:  "]";
+}
+a: hover {
+text-decoration:  underline;
+}
+table {
+line-height:  2.5;
+margin-bottom:  15px;
+max-width:  100%;
+width:  100%;
+}
+table td, table th {
+padding:  0 15px;
+}
+table th.left, table td.left {
+text-align:  left;
+}
+table th.right, table td.right {
+text-align:  right;
+}
+/******************************************************/
+/* body */
+body {
+margin:  0 auto;
+max-width:  770px;
+}
+/* head */
+.masthead {
+color:  #888;
+}
+.masthead: after {
+display:  block;
+content:  '----------------------------------------------------------------';
+margin:  10px 0;
+color:  #ccc;
+}
+.masthead a {
+color:  #333;
+}
+.masthead ul {
+list-style:  none;
+}
+.masthead li {
+display:  inline-block;
+}
+.masthead li + li:before {
+display:  inline-block;
+content:  "\00B7 \00a0";
+color:  #ccc;
+}
+/* searchform*/
+#searchform {
+position:  absolute;
+top:  54px;
+right:  30.4%;
+}
+#searchform #s {
+background:  url("/media/img/search.png") no-repeat 5px 6px;
+box-shadow:  inset 0 1px 1px rgba(0,0,0,0.1);
+border:  1px solid #ddd;
+border-radius:  2px;
+-moz-border-radius:  2px;
+width:  90px;
+height:  30px;
+line-height:  12px;
+padding:  4px 10px 4px 28px;
+
+-webkit-transition-duration:  400ms;
+-webkit-transition-property:  width, background;
+-webkit-transition-timing-function:  ease;
+-moz-transition-duration:  400ms;
+-moz-transition-property:  width, background;
+-moz-transition-timing-function:  ease;
+-o-transition-duration:  400ms;
+-o-transition-property:  width, background;
+-o-transition-timing-function:  ease;
+}
+#searchform #s: focus {
+background-color:  #f9f9f9;
+width:  160px;
+}
+.masthead img.avatar {
+position:  relative;
+float:  right;
+margin-top:  -100px;
+margin-bottom:  -100%;
+margin-right:  10%;
+width:  200px;
+background-color:  #fff;
+}
+/* post */
+.post {
+position:  relative;
+}
+.post: after {
+display:  block;
+content:  "----------------------------------------------------------------";
+color:  #ccc;
+}
+.post img {
+max-width:  100%;
+}
+.post li {
+list-style:  none outside none;
+}
+.post ul > li:before {
+content:  "- ";
+margin-left:  -1.25em;
+color:  #ccc;
+}
+.post ol {
+counter-reset:  o-list;
+}
+.post ol > li:before {
+content:  counter(o-list) ") ";
+counter-increment:  o-list;
+margin-left:  -1.85em;
+color:  #ccc;
+}
+
+/* special for li in pre */
+.post pre li {
+list-style-type:  decimal;
+}
+
+.post pre li:before {
+display:  none;
+}
+
+/* meta info */
+.post-info {
+display:  inline-block;
+margin:  -10px 0 -10px;
+color:  #999;
+}
+.post-info + .post-info:before {
+content:  "\2223 \00a0";
+}
+.post-meta: after {
+content:  "----------------------------------------------------------------";
+display:  block;
+margin-top:  -1px;
+color:  #ccc;
+}
+
+/* table of content */
+/* #table-of-contents {
+position:  fixed;
+right:  0em;
+top:  0em;
+border: 1px solid #e1e1e8;
+-webkit-box-shadow:  0 0 1em #777777;
+-moz-box-shadow:  0 0 1em #777777;
+-webkit-border-bottom-left-radius:  5px;
+-moz-border-radius-bottomleft:  5px;
+text-align:  center;
+/* ensure doesn't flow off the screen when expanded */
+max-height:  80%;
+overflow:  auto;
+z-index:  200;
+}
+
+#table-of-contents h2 {
+max-width:  20em;
+font-weight:  normal;
+padding-left:  0.5em;
+padding-top:  0.05em;
+padding-bottom:  0.05em;
+}
+
+#table-of-contents ul {
+margin-left:  14pt;
+margin-bottom:  10pt;
+padding:  0
+}
+
+#table-of-contents li {
+padding:  0;
+margin:  1px;
+list-style:  none;
+}
+
+#table-of-contents ul>: first-child {
+color:  blue;
+}
+
+#table-of-contents #text-table-of-contents {
+display:  none;
+text-align:  left;
+}
+
+#table-of-contents: hover #text-table-of-contents {
+display:  block;
+padding:  0.5em;
+margin-top:  -1.5em;
+} */
+
+/* footer */
+.footer {
+margin:  80px 0 0;
+text-align:  center;
+font-size:  15px;
+color:  #999;
+}
+.footer > p {
+margin:  0;
+line-height:  1.5;
+}
+.footpara {
+display:  inline;
+}
+
+/* Responsive
+-------------------------------------------------- */
+
+@media (min-width:  768px) {
+/* Increase body padding and font-sizes */
+body {
+padding:  30px;
+font-size:  18px;
+line-height:  1.75;
+}
+h1:before, h2:before, h3:before {
+display:  inline;
+}
+}
+
+@media (min-width:  1024px) {
+body {
+padding:  30px;
+}
+}
+</style>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',function() {
+document.getElementById("table-of-contents").onclick = function() {
+var elem = document.getElementById("text-table-of-contents");
+elem.style.display = elem.style.display == "block" ? "none" : "block";
+}
+});
+
+var url = document.location.href;
+var orgsource = url.substring(0, url.lastIndexOf("."))+".org.html";
+function show_org_source(){
+document.location.href = orgsource;
+}
+</script>
+<style>a {color: #EBCB8B;} </style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Surya&rsquo;s website</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#about-me">1. About-me</a></li>
+<li><a href="#github-copilot">2. <i>GitHub</i> Copilot</a>
+<ul>
+<li><a href="#what-copilot-is">2.1. What <i>Copilot</i> is</a></li>
+<li><a href="#how-does-it-work">2.2. How does it work?</a></li>
+<li><a href="#is-this-legal">2.3. Is this <i>legal</i>?</a>
+<ul>
+<li><a href="#is-training-copilot-legal">2.3.1. Is <i>training</i> Copilot legal?</a></li>
+<li><a href="#is-using-copilot-legal">2.3.2. Is <i>Using</i> Copilot legal?</a></li>
+</ul>
+</li>
+<li><a href="#is-this-ethical">2.4. Is this <i>ethical</i>?</a></li>
+<li><a href="#other-issues-with-copilot">2.5. Other issues with copilot</a>
+<ul>
+<li><a href="#copilot-is-not-free-software">2.5.1. Copilot is not free software</a></li>
+<li><a href="#copilot-is-biased">2.5.2. Copilot is biased</a></li>
+<li><a href="#copilot-might-not-be-useful">2.5.3. Copilot might not be <i>useful</i>?</a></li>
+</ul>
+</li>
+<li><a href="#conclusion">2.6. Conclusion</a></li>
+</ul>
+</li>
+<li><a href="#dot-files-more">3. Dot files + more:</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-about-me" class="outline-2">
+<h2 id="about-me"><span class="section-number-2">1.</span> About-me</h2>
+<div class="outline-text-2" id="text-about-me">
+<p>
+Hi! I&rsquo;m Surya. A teenager interested in all most things tech! My current
+interests are:
+</p>
+
+<ul class="org-ul">
+<li><a href="https://www.archlinux.org">Arch Linux</a><br /></li>
+<li><a href="https://www.gnu.org/software/emacs">GNU Emacs</a> (and also
+<a href="https://www.github.com/hlissner/doom-emacs">Doom Emacs</a>)<br /></li>
+<li><a href="https://www.orgmode.org">Emacs org-mode</a><br /></li>
+<li><a href="https://www.git-scm.com">Git</a><br /></li>
+<li><a href="https://www.nixos.org/guides/how-nix-works.html">Nix</a> (and also
+<a href="https://www.guix.gnu.org">GNU Guix</a>)<br /></li>
+<li><a href="https://www.www.shellscript.sh">Shell scripting</a><br /></li>
+<li><a href="https://www.www.geeksforgeeks.org/functional-programming-paradigm">Functional
+programming</a><br /></li>
+<li>Debating</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-github-copilot" class="outline-2">
+<h2 id="github-copilot"><span class="section-number-2">2.</span> <i>GitHub</i> Copilot</h2>
+<div class="outline-text-2" id="text-github-copilot">
+</div>
+<div id="outline-container-what-copilot-is" class="outline-3">
+<h3 id="what-copilot-is"><span class="section-number-3">2.1.</span> What <i>Copilot</i> is</h3>
+<div class="outline-text-3" id="text-what-copilot-is">
+<p>
+Microsoft-owned <i>GitHub</i> has caused quite a bit of commotion in the
+software scene [free or otherwise] with the announcement of <i>GitHub
+Copilot</i>, an ML using extension for Visual Studio Code trained on code
+from public repositories on the site. While software assistance for
+developers is not a remotely new concept, Copilot differs from other
+services in its ability to create multiple lines, even entire functions
+of code based on the name of a function and the developers&rsquo; comments.
+From the demos and previews on the copilot website, the description
+&ldquo;pair programmer&rdquo; isn&rsquo;t all that inaccurate.
+</p>
+
+
+
+<div id="org573b083" class="figure">
+<p><img src="data/copilotgif.gif" alt="copilotgif.gif" width="100%" height="100%" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Source: GitHub</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-how-does-it-work" class="outline-3">
+<h3 id="how-does-it-work"><span class="section-number-3">2.2.</span> How does it work?</h3>
+<div class="outline-text-3" id="text-how-does-it-work">
+<p>
+The service is currently available in a technical preview, so things
+might change- but fundamentally, Copilot uses OpenAI models [trained
+from <i>GitHub</i> code] to find the best match for the comments and the
+function name provided to it by the IDE.
+</p>
+
+
+<div id="org1c80c2c" class="figure">
+<p><img src="data/copilot.png" alt="copilot.png" width="100%" height="100%" />
+</p>
+<p><span class="figure-number">Figure 2: </span>How GitHub Copilot works (Source: GitHub)</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-is-this-legal" class="outline-3">
+<h3 id="is-this-legal"><span class="section-number-3">2.3.</span> Is this <i>legal</i>?</h3>
+<div class="outline-text-3" id="text-is-this-legal">
+<p>
+There are two main points in the flow of data with the service that have
+an ambiguous legal status:
+</p>
+
+<ul class="org-ul">
+<li>Firstly what would happen if the code from public repositories is
+licensed under a strong copyleft license [one which may require credit
+to be given to the original author if the code is reused]. Should
+Copilot have to comply with the licenses for processing code?
+[Exploring the legality of <i>training</i> the AI.]</li>
+<li>And second, whether or not the &ldquo;machine-generated&rdquo; code is actually a
+derivative of the input code given to the AI. Should the users using
+Copilot have to follow the restrictions of the licenses of the
+training code on their own code? [Exploring the legality of <i>using</i>
+the AI.]</li>
+</ul>
+</div>
+
+<div id="outline-container-is-training-copilot-legal" class="outline-4">
+<h4 id="is-training-copilot-legal"><span class="section-number-4">2.3.1.</span> Is <i>training</i> Copilot legal?</h4>
+<div class="outline-text-4" id="text-is-training-copilot-legal">
+<p>
+This should come as no surprise, but the latest project of a
+trillion-dollar corporation, is, in fact, legal. Ignoring ethical
+concerns,
+<a href="https://www.docs.github.com/en/github/site-policy/github-terms-of-service#4-license-grant-to-us">this
+section</a> of the <i>GitHub</i> terms of service grants GitHub the right to
+use your code- <b>regardless of license</b>.
+</p>
+
+<p>
+This means that the first point holds no validity as long as Copilot is
+trained using only the code hosted on <i>GitHub</i>. Even in the case that
+this foreign code is used, the case could be made for the use of this
+code is <i>transformative</i>, and possibly under the scope of fair use.
+</p>
+
+<p>
+GitHub is safe here, as predicted by its CEO in
+<a href="https://www.twitter.com/natfriedman/status/1409914420579344385">this
+tweet</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-is-using-copilot-legal" class="outline-4">
+<h4 id="is-using-copilot-legal"><span class="section-number-4">2.3.2.</span> Is <i>Using</i> Copilot legal?</h4>
+<div class="outline-text-4" id="text-is-using-copilot-legal">
+<p>
+However, the second point is more interesting. In theory, the AI is
+supposed to <i>understand</i> public code to synthesize its own code based on
+its <i>understanding</i> of the code. Shown by
+<a href="https://www.docs.github.com/en/github/copilot/research-recitation">this
+case study</a>, it <i>is</i> possible for the AI to reuse code from the public
+repos, verbatim.
+</p>
+
+<p>
+A hilarious example of this is Copilot&rsquo;s attempt to write an about-me
+page, on which request
+<a href="https://www.twitter.com/davidcelis/status/1410749792825737219?s=20">it
+output the exact <i>GitHub</i> bio of user David Celis</a>, and another where
+the code is taken word-for-word from the
+<a href="https://twitter.com/mitsuhiko/status/1410886329924194309?s=20">Quake
+III game, including the swear-y comments</a>.
+</p>
+
+<p>
+This means that however rarely, [GitHub published that the rate at which
+this happens is around 0.1%, and is more common on files where Copilot
+is given little to no information, or just empty files.] it&rsquo;s still
+possible for code to be reused with no transformation, and this is the
+situation with the highest legal ambiguity.
+</p>
+
+<p>
+<i>GitHub</i>&rsquo;s explanation for this is:
+</p>
+
+<blockquote>
+<p>
+This investigation demonstrates that <i>GitHub</i> Copilot can quote a body
+of code verbatim, but that it rarely does so, and when it does, it
+mostly quotes code that everybody quotes, and mostly at the beginning
+of a file, as if to break the ice.
+</p>
+</blockquote>
+
+<div class="org-center">
+<p>
+<a href="https://www.docs.github.com/en/github/copilot/research-recitation">source</a>
+</p>
+</div>
+
+
+<div id="orgb739f52" class="figure">
+<p><img src="data/graph.png" alt="graph.png" width="100%" height="100%" />
+</p>
+<p><span class="figure-number">Figure 3: </span>Copilot suggestions grouped based on overlap with test data (Source: GitHub)</p>
+</div>
+
+<p>
+Ultimately, it&rsquo;s not easy to determine exactly <i>what</i> this code is- and
+whether or not it&rsquo;s &ldquo;machine-generated&rdquo;. This is more important that it
+seems, especially for developers. For instance, code that is derived or
+forked from a
+<a href="https://www.twitter.com/eevee/status/1410037309848752128">project
+licensed GPLv3</a> is legally also supposed to be licensed under the same
+GPLv3 license. Worse case scenario? This means that programmers might
+unintentionally give up their freedom in licensing their software.
+</p>
+
+<p>
+That&rsquo;s just the worse case scenario, however- because copyright laws are
+a little more complicated. Julia Reda, a legislator at the EU writes:
+</p>
+
+<blockquote>
+<p>
+[&#x2026;]it suggests that even reproducing the smallest excerpts of
+protected works constitutes copyright infringement. This is not the
+case. Such use is only relevant under copyright law if the excerpt
+used is in turn original and unique enough to reach the threshold of
+originality[&#x2026;] The short code snippets that Copilot reproduces from
+training data are unlikely to reach the threshold of originality.
+</p>
+</blockquote>
+
+<div class="org-center">
+<p>
+<a href="https://www.juliareda.eu/2021/07/github-copilot-is-not-infringing-your-copyright/">source</a>
+</p>
+</div>
+
+<p>
+This is just speculation, though. There are
+<a href="https://www.fossa.com/blog/analyzing-legal-implications-github-copilot/">conflicti</a><a href="https:/medium.com/geekculture/githubs-ai-copilot-might-get-you-sued-if-you-use-it-c1cade1ea229">ng opinions</a>
+from other legal experts- and only predictions can be made until a
+judge&rsquo;s verdict is made, after the release of the software. The most
+concerning factor, to me personally, is that the law might not be
+equipped to properly deal with <i>GitHub</i> copilot. This project is the
+first of its kind- and the legislation that such a program has to be put
+under is still unclear. This makes it all too easy to make an
+insufficient or even incorrect judgement, and worse yet, this is the
+link on the chain furthest from the control of the average person like
+you or me. We can only hope that legislators are able to grasp the
+nuance and difficulty in categorizing such an innovative, out-of-the-box
+idea.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-is-this-ethical" class="outline-3">
+<h3 id="is-this-ethical"><span class="section-number-3">2.4.</span> Is this <i>ethical</i>?</h3>
+<div class="outline-text-3" id="text-is-this-ethical">
+<p>
+As fun as it is for me to point at the rule book and scream &ldquo;That&rsquo;s not
+enough!&rdquo; or &ldquo;That&rsquo;s Kafkaesque!&rdquo;, the moral and philosophical issues are
+probably more important here. They&rsquo;re also pretty straightforward:
+</p>
+
+<pre class="example">
+Is it ethical to use free/open-source code to make a proprietary service?
+</pre>
+
+
+<p>
+After all, <i>GitHub</i> copilot trains on a heap of FOSS code, but the end
+product of this training is a closed-source, paid-for product. While
+this is clearly the most important issue, it&rsquo;s not one that I&rsquo;m
+qualified to pass judgment on. I believe that this is part of the
+reasoning for a programmer to pick a particular license [for instance,
+how <i>GPLv2</i> or <i>WTFPL</i> permit this, but the more popular <i>GPLv3</i> does
+not]. As a consequence of this belief, I think it&rsquo;s completely unethical
+for <i>GitHub</i> to ignore the choices of developers just because of a vague
+clause in their terms of service, that most would not expect to be used
+this way anyway. However, it&rsquo;s not all bad. <i>GitHub</i> acknowledges the
+choice of the end user to determine if the source of code is okay to be
+used in their project, and write this:
+</p>
+
+<blockquote>
+<p>
+The answer is obvious: sharing the prefiltering solution we used in
+this analysis to detect overlap with the training set. When a
+suggestion contains snippets copied from the training set, the UI
+should simply tell you where it&rsquo;s quoted from. You can then either
+include proper attribution or decide against using that code
+altogether.
+</p>
+</blockquote>
+
+<div class="org-center">
+<p>
+<a href="https://www.docs.github.com/en/github/copilot/research-recitation#conclusion-and-next-steps">source</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-other-issues-with-copilot" class="outline-3">
+<h3 id="other-issues-with-copilot"><span class="section-number-3">2.5.</span> Other issues with copilot</h3>
+<div class="outline-text-3" id="text-other-issues-with-copilot">
+</div>
+<div id="outline-container-copilot-is-not-free-software" class="outline-4">
+<h4 id="copilot-is-not-free-software"><span class="section-number-4">2.5.1.</span> Copilot is not free software</h4>
+<div class="outline-text-4" id="text-copilot-is-not-free-software">
+<p>
+There are many other &ldquo;issues&rdquo; regarding copilot-and not just about
+legality- some of which the Free Software Foundation has published
+<a href="https://www.www.fsf.org/blogs/licensing/fsf-funded-call-for-white-papers-on-philosophical-and-legal-uestions-around-copilot">here</a>.
+The FSF requests developers not to use the service, citing its
+dependencies on proprietary software (particularly VSCode). The FSF also
+recommends
+<a href="https://www.gnu.org/software/repo-criteria%20evaluation.html#/GitHub/">doing
+away with GitHub entirely</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-copilot-is-biased" class="outline-4">
+<h4 id="copilot-is-biased"><span class="section-number-4">2.5.2.</span> Copilot is biased</h4>
+<div class="outline-text-4" id="text-copilot-is-biased">
+<p>
+Perhaps as an artifact of being trained mostly from one source, Copilot
+might have inherent biases and inefficiencies- as pointed out by
+<a href="https://www.arxiv.org/pdf/2107.03374.pdf">this paper</a>. In the words
+of Kyle Wiggers:
+</p>
+
+<blockquote>
+<p>
+After repeated sampling from the model, where Codex was given 100
+samples per problem, OpenAI says it manages to answer 70.2% of the
+HumanEval challenges correctly. But the company&rsquo;s researchers also
+found that Codex proposes syntactically incorrect or undefined code,
+invoking functions, variables, and attributes that are undefined or
+outside the scope of the codebase.
+</p>
+</blockquote>
+
+<div class="org-center">
+<p>
+<a href="https://www.venturebeat.com/2021/07/08/openai-warns-ai-behind-githubs-copilot-may-be-susceptible-to-bias/">source</a>
+</p>
+</div>
+
+<p>
+My personal bet as to why this might be is simple: Garbage in, garbage
+out. Copilot is not trained on high-quality code, but rather from
+popular repositories on <i>GitHub</i> with up to hundreds of contributors
+each- and not all of these files are full of high-quality code. In other
+words, <i>garbage in, garbage out</i>. It&rsquo;s possible to tune the training
+dataset go get rid of redundant code, but it&rsquo;s a lot of work: and
+<i>mannual, human work</i> at that. I&rsquo;d only expect the quality of code to go
+up <i>after</i> launch, when bad code is rejected by the users, giving the AI
+a chance to analyze what kind of code is accepted more often.
+</p>
+</div>
+</div>
+
+<div id="outline-container-copilot-might-not-be-useful" class="outline-4">
+<h4 id="copilot-might-not-be-useful"><span class="section-number-4">2.5.3.</span> Copilot might not be <i>useful</i>?</h4>
+<div class="outline-text-4" id="text-copilot-might-not-be-useful">
+
+<div id="orgb0ccf66" class="figure">
+<p><img src="data/IntelliCodeUsageExamples.gif" alt="IntelliCodeUsageExamples.gif" width="100%" height="100%" />
+</p>
+<p><span class="figure-number">Figure 4: </span>Source: [fast.ai](<a href="https://www.fast.ai">https://www.fast.ai</a>)</p>
+</div>
+
+<p>
+I&rsquo;ve been going on about the legal implications of this product, mainly
+because it seemed very interesting to me [and also because I&rsquo;m not
+qualified or experienced enough to discuss the user experience]- but the
+elephant in the room is obviously the actual utility of this service&#x2026;
+which seems to be hit or miss.
+</p>
+
+<p>
+<a href="https://www.www.fast.ai/2021/07/19/copilot/">This article</a> (that I
+highly recommend you read), written by a co-author of the paper that
+inspired the creation of the <i>Codex</i> backend of Copilot, claims that the
+dips in quality of code might be due to the behavior of the code
+algorithms. He even calls Copilot &ldquo;[&#x2026;] <i>worse</i> than the average
+programmer [in some ways]&rdquo;, referring to how unlike humans, Copilot&rsquo;s
+entire knowledge comes from public code, with no regard to
+documentation, compiler warnings, et cetera.
+</p>
+
+<blockquote>
+<p>
+The thing to remember is that Copilot is an early preview of a very
+new technology that&rsquo;s going to get better and better. There will be
+many competitors popping up in the coming months and years, and
+<i>GitHub</i> will no doubt release new and better versions of their own
+tool.
+</p>
+</blockquote>
+</div>
+</div>
+</div>
+
+<div id="outline-container-conclusion" class="outline-3">
+<h3 id="conclusion"><span class="section-number-3">2.6.</span> Conclusion</h3>
+<div class="outline-text-3" id="text-conclusion">
+<p>
+Obviously, Copilot has its flaws. Duh. But like Jeremy Howard writes&#x2026;
+</p>
+
+<blockquote>
+<p>
+Complaining about the quality of the code written by Copilot feels a
+bit like coming across a talking dog, and complaining about its
+diction. The fact that it&rsquo;s talking at all is impressive enough!
+</p>
+</blockquote>
+
+<p>
+Truly, <i>GitHub</i> Copilot is a step forward for programmers. Contesting
+<i>if</i> it should exist is out of the question. Really, the only question
+here is <i>how</i> it should be implemented- and I think that most of the
+flaws will be ironed out with time. Really I&rsquo;m nothing but excited to
+see the effects of such a program, and I hope it reduces the barrier to
+programming!
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-dot-files-more" class="outline-2">
+<h2 id="dot-files-more"><span class="section-number-2">3.</span> Dot files + more:</h2>
+<div class="outline-text-2" id="text-dot-files-more">
+<ul class="org-ul">
+<li><a href="backup.sh">File Backup Sript</a><br /></li>
+<li><a href="DOOM-EMACS-CONFIGS.tar.gz">Doom Emacs configs (mostly
+stolen)</a><br /></li>
+<li><a href="EMACS-CONFIGS.tar.gz">Emacs configs (autogenerated by Doom)</a><br /></li>
+<li><a href="vimconfig">vim configuration</a><br /></li>
+<li><a href="zshconfig">zsh configuration</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Surya Pranav</p>
+<p class="date">Created: 2021-08-17 Tue 12:49</p>
+</div>
+</body>
+</html>
