@@ -1,0 +1,32 @@
+title: Surya's website
+author:
+  name: Surya Pranav
+  email: thesuryapranav@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:"
+
+show_excerpts: true # set to true to show excerpts on the homepage
+heading: Eye catching heading
+subheading: >
+  This is a subheading that allows for multi-line text.
+
+# Nord-theme date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+jekyll-nord-theme:
+  date_format: "%b %d, %Y"
+
+  # generate social links in footer
+  social_links:
+    github:  suryapranav
+    linkedin: surya-pranav
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: jekyll-nord-theme
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
