@@ -1,4 +1,4 @@
 # suryapranav.github.io
-![][1]
+![website][1]
 
 [1]: suryapranav.github.io
