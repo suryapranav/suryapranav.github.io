@@ -161,4 +161,4 @@ Truly, *GitHub* Copilot is a step forward for programmers. Contesting *if* it sh
 [2]: data/graph.png
 [3]: data/IntelliCodeUsageExamples.gif
 [4]: data/copilotgif.gif
-[5]: https:/archlinux.org
+[5]: https://www.archlinux.org
