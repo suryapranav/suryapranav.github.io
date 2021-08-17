@@ -21,13 +21,12 @@ Hi! I'm Surya. A teenager interested in <s>all</s> most things tech! My
 current interests are:  
 
 - [Arch Linux][5]  
-- [GNU Emacs][https:/www.gnu.org/software/emacs/] [and also [Doom Emacs][https:/github.com/hlissner/doom-emacs]]  
-- [Emacs org-mode][https:/orgmode.org]  
-- [Git][https:/git-scm.com/]  
-- [Nix][https:/nixos.org/guides/how-nix-works.html] (and also [GNU
-  Guix][https:/guix.gnu org/])  
-- [Shell scripting][https:/www.shellscript.sh/]  
-- [Functional programming][https:/www.geeksforgeeks.org/functional-programming-paradigm/]  
+- [GNU Emacs][6] (and also [Doom Emacs][7])  
+- [Emacs org-mode][8]  
+- [Git][9]  
+- [Nix][10] (and also [GNU Guix][11])  
+- [Shell scripting][12]  
+- [Functional programming][13]  
 - Debating  
 
 # *GitHub* Copilot
@@ -66,13 +65,13 @@ This means that the first point holds no validity as long as Copilot is trained 
 code is *transformative*, and possibly under the scope of fair use.
 
 GitHub is safe here, as predicted by its CEO in [this
-tweet][https:/twitter.com/natfriedman/status/1409914420579344385].
+tweet](https:/twitter.com/natfriedman/status/1409914420579344385).
 
 ### Is *Using* Copilot legal?
 
-However, the second point is more interesting. In theory, the AI is supposed to *understand* public code to synthesize its own code based on its *understanding* of the code. Shown by [this case study][https:/docs.github.com/en/github/copilot/research-recitation], it *is* possible for the AI to reuse code from the public repos, verbatim.
+However, the second point is more interesting. In theory, the AI is supposed to *understand* public code to synthesize its own code based on its *understanding* of the code. Shown by [this case study](https:/docs.github.com/en/github/copilot/research-recitation), it *is* possible for the AI to reuse code from the public repos, verbatim.
 
-A hilarious example of this is Copilot's attempt to write an about-me page, on which request [it output the exact *GitHub* bio of user David Celis][https:/twitter.com/davidcelis/status/1410749792825737219?s=20], and another where the code is taken word-for-word from the [Quake III game, including the swear-y comments](https://twitter.com/mitsuhiko/status/1410886329924194309?s=20).
+A hilarious example of this is Copilot's attempt to write an about-me page, on which request [it output the exact *GitHub* bio of user David Celis](https:/twitter.com/davidcelis/status/1410749792825737219?s=20), and another where the code is taken word-for-word from the [Quake III game, including the swear-y comments](https://twitter.com/mitsuhiko/status/1410886329924194309?s=20).
 
 This means that however rarely, [GitHub published that the rate at which this happens is around 0.1%, and is more common on files where Copilot is given little to no information, or just empty files.] it's still possible for code to be reused with no transformation, and this is the situation with the highest legal ambiguity.
 
@@ -161,3 +160,11 @@ Truly, *GitHub* Copilot is a step forward for programmers. Contesting *if* it sh
 [3]: data/IntelliCodeUsageExamples.gif
 [4]: data/copilotgif.gif
 [5]: https://www.archlinux.org
+[6]: https:/www.gnu.org/software/emacs/
+[7]: https:/github.com/hlissner/doom-emacs
+[8]: https:/orgmode.org
+[9]: https:/git-scm.com/
+[10]: https:/nixos.org/guides/how-nix-works.html
+[11]: https:/guix.gnu.org/
+[12]: https:/www.shellscript.sh/
+[13]: https:/www.geeksforgeeks.org/functional-programming-paradigm/
