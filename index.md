@@ -20,7 +20,7 @@ layout: home
 Hi! I'm Surya. A teenager interested in <s>all</s> most things tech! My
 current interests are:  
 
-- [Arch Linux](5)  
+- [Arch Linux][5]  
 - [GNU Emacs](https:/www.gnu.org/software/emacs/) (and also [Doom
   Emacs](https:/github.com/hlissner/doom-emacs))  
 - [Emacs org-mode](https:/orgmode.org)  
