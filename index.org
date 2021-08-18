@@ -5,7 +5,7 @@
   :PROPERTIES:
   :CUSTOM_ID: about-me
   :END:
-Hi! I'm Surya. A teenager interested in all most things tech! My current
+Hi! I'm Surya. A teenager interested in +all+ most things tech! My current
 interests are:
 
 - [[https://www.archlinux.org][Arch Linux]]\\
