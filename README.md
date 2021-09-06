@@ -1,2 +1,2 @@
 # suryapranav.github.io
-suryapranav.github.io
+https://suryapranav.github.io
