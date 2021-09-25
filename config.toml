@@ -1,6 +1,6 @@
 baseURL = 'http://suryapranav.github.io'
 languageCode = 'en-us'
-title = 'Surya\'s Website'
+title = "Surya's Website"
 theme = "sam"
 
 [[params.mainMenu]]

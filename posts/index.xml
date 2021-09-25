@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Surya&#39;s Website</title>
+    <link>http://suryapranav.github.io/posts/</link>
+    <description>Recent content in Posts on Surya&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Sep 2021 08:59:54 +0530</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Sep 2021 08:59:54 +0530</lastBuildDate><atom:link href="http://suryapranav.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Copilot</title>
-      <link>http://example.org/posts/copilot/</link>
+      <link>http://suryapranav.github.io/posts/copilot/</link>
       <pubDate>Sat, 25 Sep 2021 08:59:54 +0530</pubDate>
       
-      <guid>http://example.org/posts/copilot/</guid>
+      <guid>http://suryapranav.github.io/posts/copilot/</guid>
       <description>GitHub Copilot&amp;nbsp;¶ What Copilot is&amp;nbsp;¶ Microsoft-owned GitHub has caused quite a bit of commotion in the software scene [free or otherwise] with the announcement of GitHub Copilot, an ML using extension for Visual Studio Code trained on code from public repositories on the site. While software assistance for developers is not a remotely new concept, Copilot differs from other services in its ability to create multiple lines, even entire functions of code based on the name of a function and the developers&#39; comments.</description>
     </item>
     
     <item>
       <title>Legalizing Marijuana in the Indian Context</title>
-      <link>http://example.org/posts/marijuana/</link>
+      <link>http://suryapranav.github.io/posts/marijuana/</link>
       <pubDate>Sat, 25 Sep 2021 08:59:54 +0530</pubDate>
       
-      <guid>http://example.org/posts/marijuana/</guid>
+      <guid>http://suryapranav.github.io/posts/marijuana/</guid>
       <description>Marijuana Legalization in the Indian Context&amp;nbsp;¶ The History of Marijuana Usage in India and its uses&amp;nbsp;¶ Cannabis is a substance linked to India since the very beginning (Cannabis Indica- It&amp;rsquo;s in the name!). The first documentation of the plant in India is in the Vedas, so anywhere from 1 400 to 2000 BCE!1 Just the age of the plant could be enough to classify it as inseparable to the nation&amp;rsquo;s culture- as it has found its way into the cuisine, tradition, and religion of India.</description>
     </item>
     
