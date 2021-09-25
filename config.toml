@@ -1,0 +1,20 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "sam"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "/writing/"
+
+[[params.mainMenu]]
+    link = "/about-me"
+    text = "/about-me/"
+
+# [[params.mainMenu]]
+#     link = "/humor"
+#     text = "/humor/"
+
+[[params.mainMenu]]
+    link = "/dotfiles"
+    text = "/dotfiles/"
