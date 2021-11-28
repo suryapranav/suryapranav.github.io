@@ -8,13 +8,18 @@ theme = "sam"
     text = "/writing/"
 
 [[params.mainMenu]]
-    link = "/about-me"
+    link = "/intro"
     text = "/about-me/"
+
+[[params.mainMenu]]
+    link = "/about-me"
+    text = "/interests/"
+
 
 # [[params.mainMenu]]
 #     link = "/humor"
 #     text = "/humor/"
 
-[[params.mainMenu]]
-    link = "/dotfiles"
-    text = "/dotfiles/"
+# [[params.mainMenu]]
+#     link = "/dotfiles"
+#     text = "/dotfiles/"

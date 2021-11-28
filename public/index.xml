@@ -13,28 +13,7 @@
       <pubDate>Thu, 21 Oct 2021 22:42:38 +0530</pubDate>
       
       <guid>http://suryapranav.github.io/posts/podcast/</guid>
-      <description>Mohita&amp;rsquo;s ideas&amp;nbsp;¶ How did I get here?&amp;nbsp;¶ This link&amp;nbsp;¶ Step 1:&amp;nbsp;¶ &amp;quot;I assert that the increasingly rapid rate at which images are distributed and consumed in late capitalism necessitates the corresponding increase in the rate that individuals assume and shed identities&amp;quot;  Inference from Capitalism and Schizophrenia: Contemporary Visual Culture and the Acceleration of Identity Formation/Dissolution  Step 2:&amp;nbsp;¶ Surya&#39;s proposed 3 layers of efficiency- efficiency in people generating content, efficiency in delivering content, efficiency in serving content.</description>
-    </item>
-    
-    <item>
-      <title>Humor</title>
-      <link>http://suryapranav.github.io/humor/</link>
-      <pubDate>Sat, 25 Sep 2021 12:25:06 +0530</pubDate>
-      
-      <guid>http://suryapranav.github.io/humor/</guid>
-      <description>From: patl@athena.mit.edu (Patrick J. LoPresti) Subject: The True Path (long) Date: 11 Jul 91 03:17:31 GMT Newsgroups: alt.religion.emacs,alt.slack
-When I log into my Xenix system with my 110 baud teletype, both vi and Emacs are just too damn slow. They print useless messages like, ’C-h for help’ and ’“foo” File is read only’. So I use the editor that doesn’t waste my VALUABLE time.
-Ed, man! !man ed
-ED(1) UNIX Programmer’s Manual ED(1)</description>
-    </item>
-    
-    <item>
-      <title>Dotfiles</title>
-      <link>http://suryapranav.github.io/dotfiles/</link>
-      <pubDate>Sat, 25 Sep 2021 12:19:56 +0530</pubDate>
-      
-      <guid>http://suryapranav.github.io/dotfiles/</guid>
-      <description> z-shell configuration file backup script doom emacs configuration  </description>
+      <description>Mohita&amp;rsquo;s ideas&amp;nbsp;¶How did I get here?&amp;nbsp;¶This link&amp;nbsp;¶Step 1:&amp;nbsp;¶&amp;quot;I assert that the increasingly rapid rate at which images are distributed and consumed in late capitalism necessitates the corresponding increase in the rate that individuals assume and shed identities&amp;quot; Inference from Capitalism and Schizophrenia: Contemporary Visual Culture and the Acceleration of Identity Formation/Dissolution  Step 2:&amp;nbsp;¶Surya&#39;s proposed 3 layers of efficiency- efficiency in people generating content, efficiency in delivering content, efficiency in serving content.</description>
     </item>
     
     <item>
@@ -43,7 +22,7 @@ ED(1) UNIX Programmer’s Manual ED(1)</description>
       <pubDate>Sat, 25 Sep 2021 09:46:34 +0530</pubDate>
       
       <guid>http://suryapranav.github.io/about-me/</guid>
-      <description> Hi, I&amp;rsquo;m Surya&amp;nbsp;¶ A teenager interested in all most things tech! My current interests are:
+      <description>Hi, I&amp;rsquo;m Surya&amp;nbsp;¶A teenager interested in all most things tech! My current interests are:
  Arch Linux GNU Emacs (and also Doom Emacs) Emacs org-mode Git Nix (and also GNU Guix) Shell scripting Functional programming Debating  </description>
     </item>
     
@@ -53,7 +32,7 @@ ED(1) UNIX Programmer’s Manual ED(1)</description>
       <pubDate>Sat, 25 Sep 2021 08:59:54 +0530</pubDate>
       
       <guid>http://suryapranav.github.io/posts/copilot/</guid>
-      <description>GitHub Copilot&amp;nbsp;¶ What Copilot is&amp;nbsp;¶ Microsoft-owned GitHub has caused quite a bit of commotion in the software scene [free or otherwise] with the announcement of GitHub Copilot, an ML using extension for Visual Studio Code trained on code from public repositories on the site. While software assistance for developers is not a remotely new concept, Copilot differs from other services in its ability to create multiple lines, even entire functions of code based on the name of a function and the developers&#39; comments.</description>
+      <description>GitHub Copilot&amp;nbsp;¶What Copilot is&amp;nbsp;¶Microsoft-owned GitHub has caused quite a bit of commotion in the software scene [free or otherwise] with the announcement of GitHub Copilot, an ML using extension for Visual Studio Code trained on code from public repositories on the site. While software assistance for developers is not a remotely new concept, Copilot differs from other services in its ability to create multiple lines, even entire functions of code based on the name of a function and the developers&#39; comments.</description>
     </item>
     
     <item>
@@ -62,7 +41,7 @@ ED(1) UNIX Programmer’s Manual ED(1)</description>
       <pubDate>Sat, 25 Sep 2021 08:59:54 +0530</pubDate>
       
       <guid>http://suryapranav.github.io/posts/marijuana/</guid>
-      <description>Marijuana Legalization in the Indian Context&amp;nbsp;¶ The History of Marijuana Usage in India and its uses&amp;nbsp;¶ Cannabis is a substance linked to India since the very beginning (Cannabis Indica- It&amp;rsquo;s in the name!). The first documentation of the plant in India is in the Vedas, so anywhere from 1 400 to 2000 BCE!1 Just the age of the plant could be enough to classify it as inseparable to the nation&amp;rsquo;s culture- as it has found its way into the cuisine, tradition, and religion of India.</description>
+      <description>Marijuana Legalization in the Indian Context&amp;nbsp;¶The History of Marijuana Usage in India and its uses&amp;nbsp;¶Cannabis is a substance linked to India since the very beginning (Cannabis Indica- It&amp;rsquo;s in the name!). The first documentation of the plant in India is in the Vedas, so anywhere from 1 400 to 2000 BCE!1 Just the age of the plant could be enough to classify it as inseparable to the nation&amp;rsquo;s culture- as it has found its way into the cuisine, tradition, and religion of India.</description>
     </item>
     
   </channel>

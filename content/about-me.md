@@ -4,11 +4,6 @@ date: 2021-09-25T09:46:34+05:30
 draft: false
 ---
 
-# Hi, I'm Surya
-
-A teenager interested in ~~all~~ most things tech! My
-current interests are:
-
 -   [Arch Linux](https://www.archlinux.org)
 -   [GNU Emacs](https://www.gnu.org/software/emacs) (and also [Doom
     Emacs](https://www.github.com/hlissner/doom-emacs))
