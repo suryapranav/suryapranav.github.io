@@ -6,14 +6,35 @@
     <description>Recent content on Surya&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Oct 2021 22:42:38 +0530</lastBuildDate><atom:link href="http://suryapranav.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Sep 2021 08:59:54 +0530</lastBuildDate><atom:link href="http://suryapranav.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Podcast</title>
-      <link>http://suryapranav.github.io/posts/podcast/</link>
-      <pubDate>Thu, 21 Oct 2021 22:42:38 +0530</pubDate>
+      <title>Intro</title>
+      <link>http://suryapranav.github.io/intro/</link>
+      <pubDate>Sun, 28 Nov 2021 21:40:57 +0530</pubDate>
       
-      <guid>http://suryapranav.github.io/posts/podcast/</guid>
-      <description>Mohita&amp;rsquo;s ideas&amp;nbsp;¶How did I get here?&amp;nbsp;¶This link&amp;nbsp;¶Step 1:&amp;nbsp;¶&amp;quot;I assert that the increasingly rapid rate at which images are distributed and consumed in late capitalism necessitates the corresponding increase in the rate that individuals assume and shed identities&amp;quot; Inference from Capitalism and Schizophrenia: Contemporary Visual Culture and the Acceleration of Identity Formation/Dissolution  Step 2:&amp;nbsp;¶Surya&#39;s proposed 3 layers of efficiency- efficiency in people generating content, efficiency in delivering content, efficiency in serving content.</description>
+      <guid>http://suryapranav.github.io/intro/</guid>
+      <description>Hi, I&amp;rsquo;m Surya. I write interesting stuff sometimes.</description>
+    </item>
+    
+    <item>
+      <title>Humor</title>
+      <link>http://suryapranav.github.io/humor/</link>
+      <pubDate>Sat, 25 Sep 2021 12:25:06 +0530</pubDate>
+      
+      <guid>http://suryapranav.github.io/humor/</guid>
+      <description>From: patl@athena.mit.edu (Patrick J. LoPresti) Subject: The True Path (long) Date: 11 Jul 91 03:17:31 GMT Newsgroups: alt.religion.emacs,alt.slack
+When I log into my Xenix system with my 110 baud teletype, both vi and Emacs are just too damn slow. They print useless messages like, ’C-h for help’ and ’“foo” File is read only’. So I use the editor that doesn’t waste my VALUABLE time.
+Ed, man! !man ed
+ED(1) UNIX Programmer’s Manual ED(1)</description>
+    </item>
+    
+    <item>
+      <title>Dotfiles</title>
+      <link>http://suryapranav.github.io/dotfiles/</link>
+      <pubDate>Sat, 25 Sep 2021 12:19:56 +0530</pubDate>
+      
+      <guid>http://suryapranav.github.io/dotfiles/</guid>
+      <description> z-shell configuration file backup script doom emacs configuration  </description>
     </item>
     
     <item>
@@ -22,8 +43,7 @@
       <pubDate>Sat, 25 Sep 2021 09:46:34 +0530</pubDate>
       
       <guid>http://suryapranav.github.io/about-me/</guid>
-      <description>Hi, I&amp;rsquo;m Surya&amp;nbsp;¶A teenager interested in all most things tech! My current interests are:
- Arch Linux GNU Emacs (and also Doom Emacs) Emacs org-mode Git Nix (and also GNU Guix) Shell scripting Functional programming Debating  </description>
+      <description> Arch Linux GNU Emacs (and also Doom Emacs) Emacs org-mode Git Nix (and also GNU Guix) Shell scripting Functional programming Debating  </description>
     </item>
     
     <item>
