@@ -15,6 +15,9 @@ theme = "sam"
     link = "/about-me"
     text = "/interests/"
 
+[[params.mainMenu]]
+    link = "/hmm"
+    text = "/interesting stuff/"
 
 # [[params.mainMenu]]
 #     link = "/humor"
